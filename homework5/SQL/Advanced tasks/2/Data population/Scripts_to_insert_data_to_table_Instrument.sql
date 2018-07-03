@@ -1,0 +1,9 @@
+INSERT INTO `test_club_task2`.`instrument` (`ReportingContextId`, `InstrumentCode`) VALUES (1, 101929023);
+INSERT INTO `test_club_task2`.`instrument` (`ReportingContextId`, `InstrumentCode`) VALUES (2, 103530745);
+INSERT INTO `test_club_task2`.`instrument` (`ReportingContextId`, `InstrumentCode`) VALUES (3, 103530745);
+INSERT INTO `test_club_task2`.`instrument` (`ReportingContextId`, `InstrumentCode`) VALUES (4, 106662608);
+INSERT INTO `test_club_task2`.`instrument` (`ReportingContextId`, `InstrumentCode`) VALUES (5, 106662608);
+INSERT INTO `test_club_task2`.`instrument` (`ReportingContextId`, `InstrumentCode`) VALUES (6, 107783527);
+INSERT INTO `test_club_task2`.`instrument` (`ReportingContextId`, `InstrumentCode`) VALUES (7, 111674711);
+INSERT INTO `test_club_task2`.`instrument` (`ReportingContextId`, `InstrumentCode`) VALUES (8, 114313533);
+INSERT INTO `test_club_task2`.`instrument` (`ReportingContextId`, `InstrumentCode`) VALUES (9, 114313533);

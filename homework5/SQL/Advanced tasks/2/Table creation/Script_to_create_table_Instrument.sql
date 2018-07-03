@@ -1,0 +1,18 @@
+CREATE TABLE `test_club_task2`.`instrument` (
+  `InstrumentId` INT NOT NULL AUTO_INCREMENT,
+  `ReportingContextId` INT NOT NULL,
+  `EffectiveStartTimestamp` VARCHAR(50) NULL,
+  `EffectiveEndTmestamp` VARCHAR(50) NULL,
+  `SourceSystemId` VARCHAR(50) NULL,
+  `InstrumentCode` INT NULL,
+  `IssuerPartyId` VARCHAR(50) NULL,
+  `GuarantorPartyId` VARCHAR(50) NULL,
+  `IssueCurrencyId` VARCHAR(50) NULL,
+  `ContactualMaturityDate` VARCHAR(50) NULL,
+  `InstrumentStaticDataTypeId` VARCHAR(50) NULL,
+  `InstrumentCollateralTypeId` VARCHAR(50) NULL,
+  `TreasuryInstrumentTypeId` VARCHAR(50) NULL,
+  `ExchangeId` VARCHAR(50) NULL,
+  `MarketSectorId` VARCHAR(50) NULL,
+  `IssueDate` VARCHAR(50) NULL,
+  PRIMARY KEY (`InstrumentId`, `ReportingContextId`));

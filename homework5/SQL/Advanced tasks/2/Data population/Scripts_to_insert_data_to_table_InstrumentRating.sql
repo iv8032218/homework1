@@ -1,0 +1,9 @@
+INSERT INTO `test_club_task2`.`instument_rating` (`InstumentRatingId`) VALUES (1);
+INSERT INTO `test_club_task2`.`instument_rating` (`InstumentRatingId`) VALUES (2);
+INSERT INTO `test_club_task2`.`instument_rating` (`InstumentRatingId`) VALUES (3);
+INSERT INTO `test_club_task2`.`instument_rating` (`InstumentRatingId`) VALUES (4);
+INSERT INTO `test_club_task2`.`instument_rating` (`InstumentRatingId`) VALUES (5);
+INSERT INTO `test_club_task2`.`instument_rating` (`InstumentRatingId`) VALUES (6);
+INSERT INTO `test_club_task2`.`instument_rating` (`InstumentRatingId`) VALUES (7);
+INSERT INTO `test_club_task2`.`instument_rating` (`InstumentRatingId`) VALUES (8);
+INSERT INTO `test_club_task2`.`instument_rating` (`InstumentRatingId`) VALUES (9);

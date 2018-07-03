@@ -1,0 +1,8 @@
+CREATE TABLE `test_club_additional_task`.`emp a` (
+  `EMPID` INT NOT NULL,
+  `EMPNAME` VARCHAR(50) NULL,
+  `MGRID` INT NULL,
+  `DEPTID` INT NULL,
+  `SALARY` DOUBLE NULL,
+  `DOB` DATETIME NULL,
+  PRIMARY KEY (`EMPID`));

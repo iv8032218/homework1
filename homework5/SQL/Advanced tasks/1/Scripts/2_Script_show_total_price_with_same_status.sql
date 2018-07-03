@@ -1,0 +1,1 @@
+SELECT SUM(Price), Status FROM test_club_task1.orders GROUP BY Status;

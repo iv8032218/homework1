@@ -1,0 +1,9 @@
+INSERT INTO `test_club_task2`.`rating_type` (`ReportingContextId`, `RatingTypeCode`) VALUES (1, 'LT');
+INSERT INTO `test_club_task2`.`rating_type` (`ReportingContextId`, `RatingTypeCode`) VALUES (2, 'LT');
+INSERT INTO `test_club_task2`.`rating_type` (`ReportingContextId`, `RatingTypeCode`) VALUES (3, 'LT');
+INSERT INTO `test_club_task2`.`rating_type` (`ReportingContextId`, `RatingTypeCode`) VALUES (4, 'LT');
+INSERT INTO `test_club_task2`.`rating_type` (`ReportingContextId`, `RatingTypeCode`) VALUES (5, 'LT');
+INSERT INTO `test_club_task2`.`rating_type` (`ReportingContextId`, `RatingTypeCode`) VALUES (6, 'LT');
+INSERT INTO `test_club_task2`.`rating_type` (`ReportingContextId`, `RatingTypeCode`) VALUES (7, 'RU');
+INSERT INTO `test_club_task2`.`rating_type` (`ReportingContextId`, `RatingTypeCode`) VALUES (8, 'RU');
+INSERT INTO `test_club_task2`.`rating_type` (`ReportingContextId`, `RatingTypeCode`) VALUES (9, 'RU');
