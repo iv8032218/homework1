@@ -1,0 +1,2604 @@
+{
+  "id": "d691edf9-a35e-4e86-86ba-1b81caedae72",
+  "name": "Wikipedia_Ivan_Voronkov",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "8098f616-e1b5-4870-b79b-896b0c09f231",
+    "name": "1. Check the presence of content on the Home page",
+    "commands": [{
+      "id": "206b2a33-3b90-441b-b0bd-4e7b4b4a4ff4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "2dcb40e9-b28a-4ca1-8a6b-cc87bbf02d0c",
+      "comment": "",
+      "command": "assertText",
+      "target": "//body[@id='www-wikipedia-org']/h1/div/div",
+      "value": "Wikipedia"
+    }, {
+      "id": "1236192d-5068-4af8-a98b-dbef20008ad6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#js-link-box-ru > strong",
+      "value": "Русский"
+    }, {
+      "id": "2b8ad8a0-69ea-4633-8f00-2e471fc1e6b1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#js-link-box-ja > strong",
+      "value": "日本語"
+    }, {
+      "id": "5b89081d-d242-4fc7-aab6-aef97bcac4e4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#js-link-box-de > strong",
+      "value": "Deutsch"
+    }, {
+      "id": "980fb60d-1d3d-493e-a24d-6d0a3b283362",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#js-link-box-it > strong",
+      "value": "Italiano"
+    }, {
+      "id": "eb33276b-c41e-40dc-ac66-5d5b1b334901",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#js-link-box-pt > strong",
+      "value": "Português"
+    }, {
+      "id": "87e78a59-8269-4608-9044-4b39f9a8d482",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#js-link-box-pl > strong",
+      "value": "Polski"
+    }, {
+      "id": "372a8939-ac59-4c17-8d28-6e8c9d752177",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#js-link-box-zh > strong",
+      "value": "中文"
+    }, {
+      "id": "940ddb98-9095-405c-bff7-a0e086bff8c0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#js-link-box-fr > strong",
+      "value": "Français"
+    }, {
+      "id": "bcf96714-87db-4886-abee-0a7c35f41666",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#js-link-box-es > strong",
+      "value": "Español"
+    }, {
+      "id": "e50dacab-3ec4-4570-b51a-c2445aeea186",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#js-link-box-en > strong",
+      "value": "English"
+    }, {
+      "id": "6f0b2dbc-c50b-4f6f-bb60-d9729a65fba3",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=js-lang-list-button",
+      "value": "Читайте Википедию на своём языке"
+    }]
+  }, {
+    "id": "75ebf3a8-1ded-421a-acc1-faa545a45895",
+    "name": "2. Check the presence of content on the \"Main page\" page for Russian",
+    "commands": [{
+      "id": "c28e7d7d-70ec-4f4a-9434-7f4c6ff8a498",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "3bc8b020-fbe6-4fce-af3d-ab0199af222b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "bd7d80e2-f8ec-4ef2-8e54-b24351e6f6ab",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "6f364648-3db7-46dc-b49d-96ed216dbe42",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "8b031aeb-240c-4e82-bcf6-0ec91bff433a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "360da2b4-4f17-497d-acea-e74e74f3d83a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "f8ae6e90-3ea0-4596-a9cb-3c0cedb9c596",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "3a57d55e-308e-4b1f-b9bb-31b2fc84020b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Добро_пожаловать_в_Википедию,",
+      "value": "Добро пожаловать в Википедию,"
+    }, {
+      "id": "0e581351-d308-4d2a-b5f4-69af9b919dfd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Портал:Обзор\"] > span.mw-ui-button.mw-ui-quiet",
+      "value": "Порталы"
+    }, {
+      "id": "1a4659c5-f9b9-4371-b2f6-cefbbc35bf7d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.mw-ui-button.mw-ui-quiet",
+      "value": "Справка"
+    }, {
+      "id": "ab5ef510-5e12-4ee1-b508-9f9d0be841fa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Мастер статей\"] > span.mw-ui-button",
+      "value": "Создать статью"
+    }, {
+      "id": "cb8dab16-2542-489d-aabe-1390ca092dc4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.main-box-subtitle",
+      "value": "Избранная статья"
+    }, {
+      "id": "2b1dd78b-cc68-4598-b51b-ec10c21e5e22",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#main-dyk > div.main-box-subtitle",
+      "value": "Из новых материалов"
+    }, {
+      "id": "faf7708a-71a2-42d5-bc9b-7ae3fb5a60b7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#main-tga > div.main-box-subtitle",
+      "value": "Хорошая статья"
+    }, {
+      "id": "1cd1972e-b853-41fa-9765-87f6a47112d6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Текущие_события",
+      "value": "Текущие события"
+    }, {
+      "id": "3fd60c19-d0bd-429d-87ea-080e85b7a5dc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.main-featuredLists-subtitle",
+      "value": "Последний избранный список"
+    }, {
+      "id": "0ca1e4db-2d8d-49a1-a544-6d3271df6298",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#main-itd > div.main-box-subtitle",
+      "value": "В этот день"
+    }, {
+      "id": "4c3f67f8-0f33-4897-bfb3-e413b48c11d8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Изображение_дня",
+      "value": "Изображение дня"
+    }, {
+      "id": "993b5f2f-d27c-4394-94e8-2cca21565fee",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Совместная_работа_недели",
+      "value": "Совместная работа недели"
+    }]
+  }, {
+    "id": "012b397e-07b3-43f8-a607-9b0dc0b1d6ae",
+    "name": "3. Check the presence of content on the \"Talk:Main Page\" page for Russian",
+    "commands": [{
+      "id": "2877fe13-32dc-410d-a346-6eb7919510dd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "903da586-6e30-477a-a487-7a8ed02037b3",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "5d040974-1537-4d85-99a9-7e9e2ebd72ef",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Обсуждение основной страницы [Alt+Shift+t]\"]",
+      "value": ""
+    }, {
+      "id": "66ffcd83-d658-4861-ab18-0e9fc4c9d2b9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "e8534695-7e0a-4957-9dd9-6fd22ee8e6c2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "1c540bf3-5350-41a3-9d85-bccadfe05f93",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "a57776d9-95e2-418c-9d66-bc3bccf99770",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "cd869dcd-06ed-4dbc-a655-78d19afe5baf",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "f0617530-a922-4ec4-b798-0a10c50cb33b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Обсуждение:Заглавная страница"
+    }, {
+      "id": "28a6bd4c-33e4-407a-95f5-cddc913918e6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2",
+      "value": "Содержание"
+    }, {
+      "id": "bdd074c5-b330-45de-8017-bc1460a999ff",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Подпишите,_пожалуйста,_изображение_дня!",
+      "value": "Подпишите, пожалуйста, изображение дня!"
+    }, {
+      "id": "1498fa87-6f4c-4b9b-8c7f-7ed538e08d13",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Сатирическая_монета_в_ЗЛВ",
+      "value": "Сатирическая монета в ЗЛВ"
+    }, {
+      "id": "8744218b-0933-49ba-922f-733f0348664f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Бывшая_президент",
+      "value": "Бывшая президент"
+    }, {
+      "id": "38a12bd5-5870-4030-9a09-52f022539925",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Обновление_заглавной_страницы",
+      "value": "Обновление заглавной страницы"
+    }, {
+      "id": "7232e32e-ff9d-4846-8b1f-3bd3633fd633",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Высоцкий_в_ЗЛВ",
+      "value": "Высоцкий в ЗЛВ"
+    }, {
+      "id": "7ab810b5-3f71-4af0-ba64-23b3d9bf0c78",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Новые_колонки",
+      "value": "Новые колонки"
+    }]
+  }, {
+    "id": "5ecbeef2-7dab-4871-a1d3-3995dc7b4470",
+    "name": "4. Check the presence of content on the \"View source of Main Page\" page for Russian",
+    "commands": [{
+      "id": "f2a45cff-c81a-48d9-8368-125e6c6192c6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "f3cfdb13-1a38-4a72-aa0b-1cc2ffbe5cef",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "8aa40a28-1611-4977-8d97-d06ee21f42b6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": ""
+    }, {
+      "id": "dd861d26-7678-4c0d-aeb0-5b5d2da5a9fb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "17ab7763-b378-4f2f-93e7-a6400c45e854",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "b0fe093c-343c-4351-b654-8065dd8b9eb6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "aef0df3b-35e5-4f7c-963c-7b58ccc5009d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "0127f854-7fac-4c1e-a539-3e17a71e35b4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "7344b7f8-e71a-4714-94fd-e6105c3cd524",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Просмотр исходного текста страницы Заглавная страница"
+    }, {
+      "id": "a83633d3-2f93-4ae5-8db9-2eb0fb77022c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p",
+      "value": "У вас нет прав на выполнение действия «редактирование этой страницы» по следующей причине:"
+    }, {
+      "id": "41c2004c-64ef-4bcf-a2d1-e5ac72ed67d9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/p[2]",
+      "value": "Вы можете просмотреть и скопировать исходный код этой страницы."
+    }, {
+      "id": "bb94502d-d39e-4870-bc2a-1338963b2f3d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.mw-templatesUsedExplanation > p",
+      "value": "Шаблоны, используемые на этой странице:"
+    }, {
+      "id": "71d6c0b3-79d6-41dd-b96a-ead3b9e2c52e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=mw-returnto",
+      "value": "Возврат к странице Заглавная страница."
+    }]
+  }, {
+    "id": "e1f3de8c-9407-4322-b94a-0431bdcdeb0d",
+    "name": "5. Check the presence of content on the \"Search by category\" page for Russian",
+    "commands": [{
+      "id": "b745e16d-e76e-45bb-a4a9-3310ab8323f9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "3128528f-877e-4cdb-8a4f-3341fa70140a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "d507f133-6d15-4617-8df3-0d08af8f5a19",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Поиск по категориям\"]",
+      "value": ""
+    }, {
+      "id": "6f69aafa-3608-4cec-8c94-83ae9173357f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "bc8af1c6-cc05-431f-8dbf-1ab6cb2fbcf4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "0da63ef1-b342-4a5d-a8a0-88940502a595",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "bfc29192-f91e-4ca6-ba1d-3e2b3f8a09c3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "a697a9d2-78df-478d-8304-41d7920dfc36",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "8236f034-556b-477d-b808-534a09a37b38",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Википедия:Поиск по категориям"
+    }, {
+      "id": "9ce94102-b780-4655-971c-7a2d61b7d833",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=th",
+      "value": "Тематическая рубрикация"
+    }, {
+      "id": "073ca428-f737-48eb-b376-26b2b906a37a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div/table/tbody/tr/th[2]",
+      "value": "Предметная рубрикация"
+    }, {
+      "id": "347090ce-1c49-417f-ad44-d196cf011815",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div/table/tbody/tr/th[3]",
+      "value": "Ассоциативная рубрикация"
+    }, {
+      "id": "d3669e99-4b98-4593-9a00-5cc9700ac451",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=См._также",
+      "value": "См. также"
+    }, {
+      "id": "3f31f63d-bdaf-4cd9-be05-cda8ae2021dd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#mw-normal-catlinks > a[title=\"Служебная:Категории\"]",
+      "value": "Категория"
+    }]
+  }, {
+    "id": "1749d5e6-897f-4c17-af55-da23c8f6bf33",
+    "name": "6. Check the presence of content on the \"Alphabetical index\" page for Russian",
+    "commands": [{
+      "id": "5ef1cc34-1463-4059-8232-c67e835acc43",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "a7b1d3b4-d655-45ce-beb4-c060e2a13f87",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "747b8871-6252-4faa-bd7d-a7db842e878c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Поиск по двум первым буквам\"]",
+      "value": ""
+    }, {
+      "id": "5d8f0144-b44c-4bd9-a17c-5baac63b2224",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "88559cdd-4274-4291-9b8a-5e4365010292",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "57f27f5f-3f8f-4a7a-afbe-5a7ba6f3eba8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "028312a3-7bd3-4bd6-874a-d379e4c8c4ce",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "9703b952-e010-4425-8c07-bc449c0b2f52",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "acd5aee4-42ad-49a5-8e4a-dc57a0bf82d4",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=firstHeading",
+      "value": "Википедия:Алфавитный указатель"
+    }, {
+      "id": "f6f4cbb0-d4d4-47f8-a974-bcdf84c7a719",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a.external.text",
+      "value": "А"
+    }, {
+      "id": "bb27cb9a-0581-4006-a5c3-eafcfcd64224",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'Б')])[2]",
+      "value": "Б"
+    }, {
+      "id": "374c40bb-f55e-4b83-a2ef-0339f50c9510",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'В')])[3]",
+      "value": "В"
+    }, {
+      "id": "b1fa2b89-ae2f-4345-85df-1e53262022ee",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Г')]",
+      "value": "Г"
+    }, {
+      "id": "6f035197-95a7-40bb-b28f-32b1715a75e7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Д')]",
+      "value": "Д"
+    }, {
+      "id": "d1a29161-cfa6-41b4-8130-958874f5d816",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Е')]",
+      "value": "Е"
+    }, {
+      "id": "491a7646-567f-47e3-96bd-77bb6f2eeb11",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Ё')]",
+      "value": "Ё"
+    }, {
+      "id": "02831a8d-d8bc-42a3-bad1-888162c3ff88",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Ж')]",
+      "value": "Ж"
+    }, {
+      "id": "7dca9214-795b-47f3-ac6c-a9be2e6c61f4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'З')])[2]",
+      "value": "З"
+    }, {
+      "id": "2543d66e-5490-4d29-8fe9-f0a38645fa99",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'И')])[2]",
+      "value": "И"
+    }, {
+      "id": "dc7d3373-2c4f-4bb1-9025-e50b93515909",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Й')]",
+      "value": "Й"
+    }, {
+      "id": "2429d11a-a27d-4d05-b0f3-a65a3ab47753",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'К')])[2]",
+      "value": "К"
+    }, {
+      "id": "040a6299-962e-4683-b496-c7a70b6c4fe8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Л')]",
+      "value": "Л"
+    }, {
+      "id": "06e21638-2c54-43ec-a131-a1cdd7182d6f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'М')]",
+      "value": "М"
+    }, {
+      "id": "39283a34-8596-43b2-bd31-9aa00ac4d906",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'Н')])[3]",
+      "value": "Н"
+    }, {
+      "id": "a2bbee6c-45e8-44da-8455-725e6de3351b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'О')])[3]",
+      "value": "О"
+    }, {
+      "id": "3a859be5-4ae4-468a-a4e0-c9e69d302381",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'П')])[6]",
+      "value": "П"
+    }, {
+      "id": "e00cf13d-bf70-4596-bde6-4dac2f7b06bc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Р')]",
+      "value": "Р"
+    }, {
+      "id": "9b3748e5-d240-4423-b246-b0d0f6364d29",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'С')])[3]",
+      "value": "С"
+    }, {
+      "id": "3a268209-a583-4f6f-b477-a679dcfc13f6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Т')]",
+      "value": "Т"
+    }, {
+      "id": "b253d465-a8ca-4705-8906-996ac420fe2f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'У')]",
+      "value": "У"
+    }, {
+      "id": "4c6dab4e-8719-4d6b-a4ce-41d21425bda1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Ф')]",
+      "value": "Ф"
+    }, {
+      "id": "b9b601f9-493e-46c6-9e17-4f6253203c5d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Х')]",
+      "value": "Х"
+    }, {
+      "id": "cce92aca-6c87-44f7-929d-57f0c09dec31",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Ц')]",
+      "value": "Ц"
+    }, {
+      "id": "4856d5b2-7a70-43da-8311-6447241dae9d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Ч')]",
+      "value": "Ч"
+    }, {
+      "id": "477f665b-5c5a-4050-8311-1f33de34a5f7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Ш')]",
+      "value": "Ш"
+    }, {
+      "id": "9c6acaa4-14f7-4cbb-beee-4e768316b98f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Щ')]",
+      "value": "Щ"
+    }, {
+      "id": "6c66aa0b-c1ca-4274-885e-b9280193e48a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Ы')]",
+      "value": "Ы"
+    }, {
+      "id": "5096e1ae-ede7-42b8-a929-011b22f91a62",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Э')]",
+      "value": "Э"
+    }, {
+      "id": "36d33fe7-41b9-450c-85d0-a65b81ce7ddc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Ю')]",
+      "value": "Ю"
+    }, {
+      "id": "01ab10a6-3bef-40cf-93f6-0e6d80fff6f0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'Я')])[31]",
+      "value": "Я"
+    }]
+  }, {
+    "id": "ac2573f0-04e7-4dc9-8d03-b79c14403f99",
+    "name": "7. Check the presence of content on the \"Featured article\" page for Russian",
+    "commands": [{
+      "id": "89d7115d-a338-4aaa-a0cd-7553a86cc161",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "a64c013a-6c1d-4069-bb78-c1cf1a4ee45f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "af030e53-7988-4fb4-ae69-993e875b0775",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Статьи, считающиеся лучшими статьями проекта\"]",
+      "value": ""
+    }, {
+      "id": "d6089384-ea6c-4beb-95a8-de23e317c1ad",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "0a929953-b0aa-469e-9b0b-0e9dfef68ed1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "f5b80516-2736-42ee-b936-424a4667809b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "943e12e8-4e8b-4e53-b7db-21948a9bfaa9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "f0761fb9-768e-4fce-a8c8-ad8d0703306d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "c3e379f1-1cb2-4464-90bf-6b8201159ae6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Википедия:Избранные статьи"
+    }, {
+      "id": "04113a04-27f2-49dc-b4e7-f77c163d3e29",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=b",
+      "value": "Избранные статьи"
+    }, {
+      "id": "f7a79bff-088a-4c86-8196-68481ee851fe",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Недавно_избранные_статьи",
+      "value": "Недавно избранные статьи"
+    }, {
+      "id": "2781cdd8-4f31-41cf-97bc-5580d4f4e300",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=География",
+      "value": "География"
+    }, {
+      "id": "ec0eaf57-f7d1-4509-aa47-1e8ffa380609",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=История",
+      "value": "История"
+    }, {
+      "id": "dd89fb65-0947-497e-ad92-cf8a57706acd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Экономика_и_финансы",
+      "value": "Экономика и финансы"
+    }, {
+      "id": "3a6f6ade-b128-4cd4-8b95-4fc4fa4501e8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Культура_и_общество",
+      "value": "Культура и общество"
+    }, {
+      "id": "0a03eb20-c115-48bc-a0eb-ba5d80312dff",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Религия",
+      "value": "Религия"
+    }, {
+      "id": "de4ba034-9021-41a4-8a12-2a14656b72df",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Искусство",
+      "value": "Искусство"
+    }, {
+      "id": "c65b4d74-5a38-44f9-a0ec-cea1ef0a24f0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Спорт_и_развлечения",
+      "value": "Спорт и развлечения"
+    }, {
+      "id": "b27fef1f-1541-4d69-9be7-c91d070516a0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Наука",
+      "value": "Наука"
+    }, {
+      "id": "5ff8c5fc-54b8-41f5-8007-b92b13e547ef",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Техника",
+      "value": "Техника"
+    }, {
+      "id": "bd660ff1-5f5a-4431-a7c4-7fcf102c10d0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Персоналии",
+      "value": "Персоналии"
+    }, {
+      "id": "97f2a3c5-0daa-4f99-b3bd-56d9913316f6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Об_авторах",
+      "value": "Об авторах"
+    }]
+  }, {
+    "id": "b9a1d2f8-03c8-41b9-a4ac-7203298b362f",
+    "name": "8. Check the presence of content on the \"Random article\" page for Russian",
+    "commands": [{
+      "id": "2db5a998-9dfe-4861-9de6-67752e4a8e6b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "322557d8-38ff-47f8-9662-9562ae63ddd9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "767d42fc-d287-48d7-a4b8-bad38c525aa7",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Посмотреть случайно выбранную страницу [Alt+Shift+x]\"]",
+      "value": ""
+    }, {
+      "id": "24ad7a31-4a79-4823-9e95-849d539462f9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "9ee6eca7-e73c-4d47-9a58-90d6c4a8e291",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Редактировать данную страницу [Alt+Shift+v]\"]",
+      "value": "Править"
+    }, {
+      "id": "709d3033-903c-4854-91d2-95fbd9361e1c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эту статью можно изменять. Перед сохранением изменений, пожалуйста, нажмите кнопку предварительного просмотра для визуальной проверки результата [Alt+Shift+e]\"]",
+      "value": "Править код"
+    }, {
+      "id": "6ca399c1-dd59-4428-b2eb-03608ed0d451",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "2b04849b-0456-470c-912e-5151a2347470",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "f7ff6a89-7144-427b-b762-ce0b70a4b107",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "85109d9d-66a9-476c-99a6-d4ec8707abdd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=siteSub",
+      "value": "Материал из Википедии — свободной энциклопедии"
+    }, {
+      "id": "f67eef64-1b7a-494b-a5d7-04f18346c8a0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a.mw-editsection-visualeditor",
+      "value": "править"
+    }, {
+      "id": "17d1aa0d-674a-4315-93de-a3260bdbc0be",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'править код')]",
+      "value": "править код"
+    }]
+  }, {
+    "id": "20f25587-47ed-467b-aa3b-774e4033ee0b",
+    "name": "9. Check the presence of content on the \"Current events\" page for Russian",
+    "commands": [{
+      "id": "60e701c2-810b-44d5-92c2-ac3e97e286c0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "52533315-864e-4a5b-94b5-9104f4e3c6ff",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "c4a23914-2512-49bf-99cd-4f5c700e1150",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Статьи о текущих событиях в мире\"]",
+      "value": ""
+    }, {
+      "id": "6d38a839-fbf1-423a-b519-bc2c1adc0741",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "46a21c46-13ed-4886-94a8-f7d021b1035e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "2ac5f65e-4b2b-4409-91c4-1cf884989daf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "7b4edca4-1576-4789-8b6e-9880ab9a429f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "7e1ffe86-1c03-43b7-93f7-24e9a9ee5075",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "d2386c02-0b2e-4a3c-97f8-e34b5190b9cf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Портал:Текущие события"
+    }, {
+      "id": "6eaba289-b7b2-490d-9634-c3a1c8bed1e6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=td > table > tbody > tr > td",
+      "value": "Главные события (Просмотр • Обсуждение • Править • Предложить добавить событие)"
+    }, {
+      "id": "55bb1912-06a3-4746-9ad6-9586963a7cb9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=td > big",
+      "value": "Последние события"
+    }, {
+      "id": "6170a493-b2c2-405a-848c-7a05bbc59322",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=События_по_месяцам",
+      "value": "События по месяцам"
+    }, {
+      "id": "1846685f-b90d-4a07-bf1c-7baa2b2ab79a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Служебная:Категории\"]",
+      "value": "Категории"
+    }, {
+      "id": "6e5c4ab5-53b1-4aa9-909d-0c96b2c10b10",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Категория:Википедия:Содержание Википедии\"]",
+      "value": "Википедия:Содержание Википедии"
+    }]
+  }, {
+    "id": "26b19c11-54f7-4954-a888-e1cf75193b28",
+    "name": "10. Check the presence of content on the \"Report a bug\" page for Russian",
+    "commands": [{
+      "id": "ab96d8e3-2a23-49f9-a0fe-54953cbe1eff",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "fac43fa8-4485-44c0-8320-869ae36f5bc7",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "a51fac9a-153f-4c23-bde7-9fcc6da36d6a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Сообщить об ошибке в этой статье\"]",
+      "value": ""
+    }, {
+      "id": "7b9fe23e-dbcb-4292-b352-73b0ddd4bb9a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ooui-1",
+      "value": "Сообщение об ошибке"
+    }, {
+      "id": "91ccf3b4-a4ab-487b-81ef-bedd497b3e85",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Текущий\t\t\t\tсписок сообщений об ошибках')]",
+      "value": "Текущий список сообщений об ошибках"
+    }, {
+      "id": "5e046477-9635-4f36-a675-42298d05d2ae",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.oo-ui-labelElement-label",
+      "value": "Исправить самостоятельно"
+    }, {
+      "id": "14a6748b-8f24-46e3-9224-6ce39e120205",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//span[2]/a/span[2]",
+      "value": "Сообщить об ошибке"
+    }, {
+      "id": "df58918b-806a-4a89-8e46-7da9a8793a5e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//span[3]/a",
+      "value": "Закрыть"
+    }]
+  }, {
+    "id": "3b03c46a-2ff4-4567-a6a5-b4a452da5dc0",
+    "name": "11. Check the presence of content on the \"Community\" page for Russian",
+    "commands": [{
+      "id": "443e13b9-2e09-4f77-86a4-aeaa5ff2534e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "cd26ccae-b288-4317-a990-8af573d93382",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "de9e9875-9148-4440-88db-ddc0f6f0a42a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"О проекте, о том, чем здесь можно заниматься, а также — где что находится\"]",
+      "value": ""
+    }, {
+      "id": "d619941b-8b5e-4d31-b6f7-410094c608ab",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "bf7eb463-3692-4bda-9e5a-bffa418b1ed0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "7456e7a3-15da-4de5-b1ac-9baa56c8d202",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "a3eb9cfa-4f11-4ca7-8444-87f09fbb04db",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "f5dfdfaa-2463-4159-9dd6-bd7ca050107a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "84d4fdbe-6154-4dc9-9b8b-3cd286b0c772",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Википедия:Сообщество"
+    }, {
+      "id": "fd9d854b-396a-4be1-aafc-41b29c11db47",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Добро_пожаловать_на_страницу_сообщества_Википедии!",
+      "value": "Добро пожаловать на страницу сообщества Википедии!"
+    }, {
+      "id": "3470a59d-f6cb-4ea3-b33f-15be93b472b4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Новости",
+      "value": "Новости"
+    }, {
+      "id": "3a32ee3b-9415-49be-afcb-665c6fcc985d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Участвуйте_в_жизни_сообщества",
+      "value": "Участвуйте в жизни сообщества"
+    }, {
+      "id": "4c547b36-bb6b-46e9-a412-56cdfffa17a5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Общение",
+      "value": "Общение"
+    }, {
+      "id": "9c0f8291-1705-45a6-b933-4cb4729d75a4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div/div/div[10]/p",
+      "value": "Последние активные темы на главных форумах (время указано в UTC):"
+    }, {
+      "id": "ed464577-f451-4e3e-b295-8a0fffda52cf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=th.headerSort",
+      "value": "Тема"
+    }, {
+      "id": "55453a4c-0940-41d7-b17f-64e077142984",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=th.nowrap.headerSort",
+      "value": "Последнее сообщение"
+    }, {
+      "id": "0c5d97a7-295a-4fdc-8f98-e062d2a696ed",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div/div/div[10]/table/tbody/tr/td/table/thead/tr/th[3]",
+      "value": "Сообщений"
+    }, {
+      "id": "e771d758-2f2f-4717-9784-ed08d99c4f4b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Ключевые_обсуждения",
+      "value": "Ключевые обсуждения"
+    }, {
+      "id": "f159bf8f-8ee0-4993-bbb9-bb4593986453",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Вики-проекты",
+      "value": "Вики-проекты"
+    }, {
+      "id": "b58b4cff-2d1a-4126-ad1d-bba246462399",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Встречи",
+      "value": "Встречи"
+    }, {
+      "id": "7658920b-304b-4cbc-bd76-66ab0e24650a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Обустраиваем_русскую_Википедию",
+      "value": "Обустраиваем русскую Википедию"
+    }, {
+      "id": "4b76ec6b-a064-40c4-be05-d94a1475007d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Чем_помочь",
+      "value": "Чем помочь"
+    }, {
+      "id": "bc5f701a-3b50-48a0-8128-72cd298be8ea",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Работа_недели",
+      "value": "Работа недели"
+    }, {
+      "id": "4844dd50-b4f2-42ac-aae9-1e3f6ea00524",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Ещё_задачи",
+      "value": "Ещё задачи"
+    }, {
+      "id": "9126a91f-0c8a-4df8-a0e0-52fae5e265ed",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Прочая_информация",
+      "value": "Прочая информация"
+    }, {
+      "id": "af277c68-a45b-4692-98fb-b86e494a86bc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Служебная:Категории\"]",
+      "value": "Категория"
+    }]
+  }, {
+    "id": "cce06961-24d7-438f-b216-2f7e92f74577",
+    "name": "12. Check the presence of content on the \"Forum\" page for Russian",
+    "commands": [{
+      "id": "325b65c6-34d5-4b80-b297-e1403a5515b2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "64c161a9-1122-4ebe-b5aa-7583081dcf5e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "1f4f150f-cb03-4f1c-ac65-cb016650ae17",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Форум участников Википедии\"]",
+      "value": ""
+    }, {
+      "id": "be444030-0b66-4841-a327-13d1782972b3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "3ad06a58-486d-4d33-ba1a-04b6ce43d551",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "0d7258bd-4ce4-46ab-b8af-959858b6100e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "abbfc021-71ec-48a2-896a-c5ec55b3d207",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "b3bbb3b7-39b2-47a8-941a-e9d598cbb7f6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "77e806b1-4128-4ad5-a117-8afe63ae7435",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Википедия:Форум"
+    }, {
+      "id": "6fc58ca2-8f65-46ae-b167-49dc8f134274",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Помощь начинающим\"]",
+      "value": "Начинающим"
+    }, {
+      "id": "04bce32f-bf0e-439c-b8d7-9aba4c2ce5ad",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Страницы сообщества\"]",
+      "value": "Сообщество"
+    }, {
+      "id": "a0eecfcf-b5b3-47a1-a5ff-1172781beaa0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Портал:Обзор\"]",
+      "value": "Порталы"
+    }, {
+      "id": "0915cbbc-4121-4ddb-8672-98afe7bc94b1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Портал:Избранное содержание\"]",
+      "value": "Награды"
+    }, {
+      "id": "a5343664-6657-4644-be21-813d8da70983",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Проекты\"]",
+      "value": "Проекты"
+    }, {
+      "id": "4b32da8a-6070-4311-8e5f-cd47e2cdc601",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Запросы\"]",
+      "value": "Запросы"
+    }, {
+      "id": "63fd45a5-8948-4bbb-9560-81ca4670b048",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Оценивание\"]",
+      "value": "Оценивание"
+    }, {
+      "id": "ba30c41d-d187-462b-9ff0-fe8217257025",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a.mw-selflink.selflink",
+      "value": "Форум"
+    }, {
+      "id": "a4ce1df0-ba95-4a26-a09a-4a1191ec19fa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Опросы\"]",
+      "value": "Опросы"
+    }, {
+      "id": "22ea2975-5517-48f3-8b22-0e966b45cfda",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Голосования\"]",
+      "value": "Голосования"
+    }, {
+      "id": "c08a4a00-5007-4a65-a81b-465832cbd76a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Обсуждение правил\"]",
+      "value": "Обсуждение правил"
+    }, {
+      "id": "3d55ca07-a536-4e47-8b05-0e0b408bfe35",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Заявки на статусы\"]",
+      "value": "Заявки на статусы"
+    }, {
+      "id": "828031f1-14d1-416c-a151-405e30e37fc2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Арбитражный комитет\"]",
+      "value": "Арбитражный комитет"
+    }, {
+      "id": "2b8670dd-6557-4507-9121-0e1cd6112f14",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Проверка участников\"]",
+      "value": "Проверка участников"
+    }, {
+      "id": "27ff0bd5-8627-4d22-adc5-93a7a0f3a3e1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=td > a.mw-selflink.selflink",
+      "value": "Форум"
+    }, {
+      "id": "fdf7777e-1a2c-4bc9-a4ab-eaab67e64391",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=th",
+      "value": "Раздел форума"
+    }, {
+      "id": "972b0b0a-e31b-491e-b77f-f900dedafe15",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div/table/tbody/tr/th[2]",
+      "value": "Обсуждаемые темы"
+    }, {
+      "id": "3748446c-91f9-4e22-a147-1708b1e4b255",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div/table/tbody/tr/th[3]",
+      "value": "Действия"
+    }, {
+      "id": "009819c4-468d-4e3a-bfd3-02b1f8aecbf1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Другие_страницы",
+      "value": "Другие страницы"
+    }, {
+      "id": "9284b427-636f-4a3f-8564-8f04d1ad5e94",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Архивация",
+      "value": "Архивация"
+    }, {
+      "id": "2115c737-33b7-4bf8-a520-c0afe3b2ceda",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Служебная:Категории\"]",
+      "value": "Категория"
+    }, {
+      "id": "3f97384a-708b-4147-a8af-9720f532d2f8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=search",
+      "value": ""
+    }, {
+      "id": "56b4b6ef-803f-4077-bd3a-f9d6b077b60f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=fulltext",
+      "value": "Поиск по всему форуму и архиву"
+    }]
+  }, {
+    "id": "7e51fb8a-7fb6-4287-9f30-371a306589aa",
+    "name": "13. Check the presence of content on the \"Fresh changes\" page for Russian",
+    "commands": [{
+      "id": "7f2424b4-f1cf-473d-89e1-d95ec15c0186",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "b5a26fa3-99cb-4764-b3e4-23de344e9485",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "b2b53153-3232-45e5-89d7-dff260512a09",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Список последних изменений [Alt+Shift+r]\"]",
+      "value": ""
+    }, {
+      "id": "4983cbc4-63c5-45c4-8d46-896192c3f697",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "c796d5ed-4de8-4282-b9e6-5a423679416c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "776c09d0-a621-4c95-9891-b9eab6b3ca1f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Свежие правки"
+    }, {
+      "id": "59d1bc92-ff7c-4351-b8f9-3f788a58062c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.oo-ui-labelElement-label",
+      "value": "Другие инструменты проверки"
+    }, {
+      "id": "7dae151e-6a45-41f0-a8a2-3f68bafa7bb2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[3]/div/div/div[2]/div/div/div/div/label",
+      "value": "Активные фильтры"
+    }, {
+      "id": "2fbac1c5-3b23-4398-a428-f68634be935e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=bdi",
+      "value": "Человек (не бот)"
+    }, {
+      "id": "56ad2561-b728-4a19-9878-0e4558ed51f5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/span/bdi",
+      "value": "Правки страницы"
+    }, {
+      "id": "ff6ee7df-ab7c-4890-950b-0fef3310e5b3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div[3]/span/bdi",
+      "value": "Создания страниц"
+    }, {
+      "id": "d94bca3b-c2ff-4930-b250-93030d092ec2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[3]/div/div/div[2]/div/div/div[2]/div/div/div/div[4]/span/bdi",
+      "value": "Протоколируемые действия"
+    }, {
+      "id": "7d6e2ff4-629d-4658-9e2a-fdd876039628",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.mw-rcfilters-ui-filterMenuHeaderWidget-title.oo-ui-labelElement-label",
+      "value": "Фильтры"
+    }, {
+      "id": "34768600-1a59-4212-95a2-e37e923173db",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[6]/div[2]/div/div/div/div[4]/span/a/span[2]",
+      "value": "Выделить результаты"
+    }, {
+      "id": "ca87a00d-52ee-4d5e-a992-d35184ba0f45",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[3]/div/div/div[2]/div[2]/div/div[2]/div/div/a/span[2]",
+      "value": "Пространства имён"
+    }, {
+      "id": "37636c63-1f82-4f40-aff7-eccc6985ab9a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[3]/div/div/div[2]/div[2]/div/div[2]/div/div[2]/a/span[2]",
+      "value": "Метки"
+    }]
+  }, {
+    "id": "325148cf-bd18-436f-8b36-2fe64eea813d",
+    "name": "14. Check the presence of content on the \"New pages\" page for Russian",
+    "commands": [{
+      "id": "679fefeb-19a5-426c-a8d3-ff562fd6c922",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "b5b8fc01-c5bf-4f09-9417-385016b081fe",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "ef3d7224-75f6-477d-9a41-d9fe58124400",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Список недавно созданных страниц\"]",
+      "value": ""
+    }, {
+      "id": "4545f9ea-9f35-459c-bf05-676614925de8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "c04c9eba-bcd5-4e31-b213-134ff43480fc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "44eddb5b-8cae-4822-ba76-df9bc123dcaa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Новые страницы"
+    }, {
+      "id": "e117dad7-4d4c-46aa-b2bc-e7414fbc49e9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=legend",
+      "value": "Новые страницы"
+    }, {
+      "id": "0cd2dd3e-634b-4a80-8061-d78332c4a590",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=label",
+      "value": "Пространство имён:"
+    }, {
+      "id": "ff761d67-5679-4352-b98e-3b4bf932b65a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=mw-input-namespace",
+      "value": "все (основное) Обсуждение Участник Обсуждение участника Википедия Обсуждение Википедии Файл Обсуждение файла MediaWiki Обсуждение MediaWiki Шаблон Обсуждение шаблона Справка Обсуждение справки Категория Обсуждение категории Портал Обсуждение портала Инкубатор Обсуждение Инкубатора Проект Обсуждение проекта Арбитраж Обсуждение арбитража Образовательная программа Обсуждение образовательной программы Модуль Обсуждение модуля Gadget Gadget talk Gadget definition Gadget definition talk Тема"
+    }, {
+      "id": "16488365-341e-4882-82cd-4c1559f7e3e6",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "id=mw-input-invert",
+      "value": ""
+    }, {
+      "id": "e32ad549-873d-4820-a398-22e0c491f253",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=tr.mw-htmlform-field-HTMLTagFilter > td.mw-label > label",
+      "value": "Фильтр меток:"
+    }, {
+      "id": "674271f4-1983-46a8-a46d-965a5fdf6f9f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=tagfilter",
+      "value": ""
+    }, {
+      "id": "ee484265-787e-447f-8fde-a121431f63aa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=tr.mw-htmlform-field-HTMLUserTextField.mw-autocomplete-user > td.mw-label > label",
+      "value": "Участник:"
+    }, {
+      "id": "8216dfc5-c697-493e-87c8-df3363bfede1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=mw-np-username",
+      "value": ""
+    }, {
+      "id": "cd889deb-9db9-4114-867b-7e7fc0c58495",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "id=mw-input-size-mode-min",
+      "value": ""
+    }, {
+      "id": "4753d6e3-6090-46ef-b879-e6b6595a0ae9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=tr.mw-htmlform-field-HTMLSizeFilterField > td.mw-input > label",
+      "value": "Минимальный размер"
+    }, {
+      "id": "aa31a464-1cee-4a5e-875d-19df0469f28c",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "id=mw-input-size-mode-max",
+      "value": ""
+    }, {
+      "id": "82b806be-2344-4bc5-9d8c-07b91afb7c87",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/form/fieldset/table/tbody/tr[5]/td[2]/label[2]",
+      "value": "Максимальный размер:"
+    }, {
+      "id": "07be7648-95f7-4441-8ea7-ca3683f57414",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=input.mw-htmlform-submit",
+      "value": ""
+    }]
+  }, {
+    "id": "14a63773-8e21-445a-b2d8-be7f0a140393",
+    "name": "15. Check the presence of content on the \"Help\" page for Russian",
+    "commands": [{
+      "id": "c3d43429-9dd3-41b4-a509-72a18c18624f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "c86aef94-eeaf-4562-89be-3e7479b5e5cf",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "55a15868-026c-463a-be01-1596b11565f8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Место, где можно получить справку\"]",
+      "value": ""
+    }, {
+      "id": "0f3f6bf0-fe14-42be-b745-16dae9a1a47c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "68e1d3ca-6cd6-4be4-acec-770d3bf4b846",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "d241556e-2fe4-4e09-a0c2-ee5d9faa555a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "e22be5c3-ce99-476a-829c-03ae08a329c3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "a9d0ca88-a388-421d-85e5-85df5ad65a2e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "dd167a79-5fb5-4dcc-ae95-dea51d457f03",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Википедия:Справка"
+    }, {
+      "id": "e47a9900-dce3-4f27-834f-58355875641a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Помощь начинающим\"]",
+      "value": "Начинающим"
+    }, {
+      "id": "a3dbfbf0-befe-4588-9d62-73dde81752f6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Страницы сообщества\"]",
+      "value": "Сообщество"
+    }, {
+      "id": "2d0b8cf9-b4fe-43d6-b65d-d5e68cd6cfcf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Портал:Обзор\"]",
+      "value": "Порталы"
+    }, {
+      "id": "ec187c63-eedd-4df0-b0da-e7b904272371",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Портал:Избранное содержание\"]",
+      "value": "Награды"
+    }, {
+      "id": "6f775bdb-e8a1-4001-8adb-a2247de5615d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Проекты\"]",
+      "value": "Проекты"
+    }, {
+      "id": "e6d4a342-3fc5-4e1b-acfe-2d167acd78c2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Запросы\"]",
+      "value": "Запросы"
+    }, {
+      "id": "c0e49853-a76f-495f-bdad-2c649018d841",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Оценивание\"]",
+      "value": "Оценивание"
+    }, {
+      "id": "e6691bf8-2e9d-47fd-9312-2766002caf24",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a.mw-selflink.selflink",
+      "value": "Справка"
+    }, {
+      "id": "f4077333-8da3-45b7-a024-370ddeaeb3d0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:ЧАВО\"]",
+      "value": "ЧАВО"
+    }, {
+      "id": "5bae4ba9-2402-4679-ad64-5c9ce4714798",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Правила и указания\"]",
+      "value": "Правила и указания"
+    }, {
+      "id": "a294bfd3-0aaa-4167-bc7a-199fa470924a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Шпаргалка\"]",
+      "value": "Шпаргалка"
+    }, {
+      "id": "5f8e6c43-b44e-43f8-9874-e0d439273799",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Поиск\"]",
+      "value": "Поиск"
+    }, {
+      "id": "af18e6b0-b86f-4273-bd8a-7c3e52d25517",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Песочница\"]",
+      "value": "Песочница"
+    }, {
+      "id": "d6826039-daca-4927-80ff-1928b69f3996",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.mw-ui-button",
+      "value": "Сообщить об ошибке в статье"
+    }, {
+      "id": "e3968c5e-50b4-44f2-9c17-0b4bed8dd228",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Форум/Помощь начинающим\"] > span.mw-ui-button",
+      "value": "Задать вопрос на форуме"
+    }, {
+      "id": "703f5e6d-1224-4c0c-b26d-9aeb2b14a754",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Добро пожаловать в Википедию\"]",
+      "value": "Добро пожаловать!"
+    }, {
+      "id": "bf4f80ce-c959-4977-a23f-42ea958ae074",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=b > a[title=\"Википедия:Правила и указания\"]",
+      "value": "Правила и руководства"
+    }, {
+      "id": "e80c23ee-d4b0-4533-bb54-c60261c466ce",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Как использовать Википедию\"]",
+      "value": "Как использовать Википедию"
+    }, {
+      "id": "4027e51b-1743-47f5-ac6b-3dc8c4090984",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=b > a.mw-redirect",
+      "value": "Общение"
+    }, {
+      "id": "26f1f91b-0c4e-4bd4-900a-1f4b833980db",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Как править статьи\"]",
+      "value": "Редактирование статей"
+    }, {
+      "id": "97439c20-a527-42ee-8ecc-eb0885195356",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Сообщество Википедии')]",
+      "value": "Сообщество Википедии"
+    }, {
+      "id": "f6ad14a7-d916-46fc-b074-1058fa91f574",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Ссылки\"]",
+      "value": "Ссылки"
+    }, {
+      "id": "846bba9a-e684-4a84-8b5d-f78f683f968b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a.extiw",
+      "value": "Облегчение труда"
+    }, {
+      "id": "54f130a3-ffdc-4740-989d-e78099b54b61",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'Вики')])[5]",
+      "value": "Вики"
+    }, {
+      "id": "cbb1f8a3-f718-4766-aeb1-1c9b70703195",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Права участников\"]",
+      "value": "Зарегистрированные участники"
+    }, {
+      "id": "f6c77c3c-c629-4fed-b56f-814c9387c999",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[contains(text(),'Слежение за страницами')]",
+      "value": "Слежение за страницами"
+    }, {
+      "id": "7fb8e0da-7dff-413f-9fa5-bf210f6612cf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Описание\"]",
+      "value": "Техническая информация"
+    }, {
+      "id": "ffa659b2-307a-40b8-b479-914bfa1013da",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=big > big",
+      "value": "Не нашли ответ?"
+    }, {
+      "id": "f4c69ebb-f00a-48cc-9dc0-2c5eaec95d8c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=search",
+      "value": ""
+    }, {
+      "id": "90e5d7b4-0bb8-4680-b109-5a95bb0e1d26",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=fulltext",
+      "value": "Искать"
+    }, {
+      "id": "28d100c7-9053-40ed-a7e0-367fa666e9a0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=td > table > tbody > tr > td > p > big > b",
+      "value": "Где ещё можно найти ответы"
+    }, {
+      "id": "743b3ccb-8db3-4177-b4d2-2b50bb50704f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=b > a[title=\"Википедия:Помощь начинающим\"]",
+      "value": "Помощь начинающим"
+    }, {
+      "id": "5ee21868-8a06-4651-88eb-ad25ba05b3be",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Справка/Расширенная\"]",
+      "value": "Расширенная справка"
+    }, {
+      "id": "e03f3ecd-c082-4c1b-9172-a9a0ea7f6f2e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Категория:Википедия:Правила и руководства\"]",
+      "value": "Категория «Правила и руководства»"
+    }, {
+      "id": "0b8cafdb-1b2a-4dcc-9b10-095c14cde162",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Категория:Википедия:Справка\"]",
+      "value": "Категория «Справка»"
+    }, {
+      "id": "1674d385-3afc-413e-b1f8-426a6d13a985",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Категория:Википедия:Эссе\"]",
+      "value": "Категория «Эссе»"
+    }, {
+      "id": "2fb6e094-29c6-4857-aed1-4f04e2ddf03d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p > b",
+      "value": "Если вы обнаружили нарушение авторских прав, сообщите об этом здесь."
+    }, {
+      "id": "c434b08b-e849-4730-a7b6-248b462948a3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Википедия:Вы пользуетесь Википедией на свой страх и риск\"]",
+      "value": "Помните, что вы пользуетесь Википедией на свой страх и риск!"
+    }]
+  }, {
+    "id": "cd0e10b9-52c3-4302-b7c3-2be6fde4a53f",
+    "name": "16. Check the presence of content on the \"Donate\" page for Russian",
+    "commands": [{
+      "id": "960c53e4-c72e-4af8-9f13-9c9dfecf4f01",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "f959fd19-58a8-49dc-a303-4b0c55c0ff42",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "bd756a02-2449-45ba-a4d3-8b6cd209df3d",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Поддержите нас\"]",
+      "value": ""
+    }, {
+      "id": "c0552822-00e8-4104-831f-b08211f36015",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=a.mw-wiki-logo",
+      "value": ""
+    }, {
+      "id": "e02beec2-a38c-4cb0-aa3d-634b70525d0d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=appeal-head",
+      "value": "Обращение основателя Википедии Джимми Уэйлса."
+    }, {
+      "id": "07978ebd-fa26-47b3-8723-042fdc344198",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=radiobuttons-table-header",
+      "value": "Сумма пожертвования (UAH)"
+    }, {
+      "id": "c612948c-5bc7-4a8d-87fd-e555dcfe45ca",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=label.frb-btn",
+      "value": "Один раз"
+    }, {
+      "id": "504c1117-5157-4cb9-a634-7c41abcec872",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='actual-form']/fieldset/ul/li[2]/label",
+      "value": "Ежемесячно"
+    }, {
+      "id": "6b878f72-1fd7-43cf-b146-f00d671e6c70",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li.radiobuttons-cell.input_amount_0 > label.frb-btn",
+      "value": "₴50"
+    }, {
+      "id": "8632024e-2470-483b-b3c2-9a4a01e193ec",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li.radiobuttons-cell.input_amount_1 > label.frb-btn",
+      "value": "₴75"
+    }, {
+      "id": "b1a72e19-860d-4846-b64c-eb28e2dc0059",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li.radiobuttons-cell.input_amount_2 > label.frb-btn",
+      "value": "₴150"
+    }, {
+      "id": "68f1bbc2-a4bd-4042-b0a0-53b066dbc016",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li.radiobuttons-cell.input_amount_3 > label.frb-btn",
+      "value": "₴300"
+    }, {
+      "id": "58795708-1dd3-4ae7-946f-f4f4364d72a4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li.radiobuttons-cell.input_amount_4 > label.frb-btn",
+      "value": "₴500"
+    }, {
+      "id": "9b23a324-daf8-4faa-aaaf-c977810d6c1f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li.radiobuttons-cell.input_amount_5 > label.frb-btn",
+      "value": "₴750"
+    }, {
+      "id": "40a697ee-f4f1-4f67-963e-f181eda28e99",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=li.radiobuttons-cell.input_amount_6 > label.frb-btn",
+      "value": "₴1000"
+    }, {
+      "id": "e1817154-c474-4314-9ce4-df6cc68a227c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=label.frb-btn > span",
+      "value": "Другая сумма"
+    }, {
+      "id": "1a635ca4-af6a-4943-8939-baef9824353c",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=input_amount_other_box",
+      "value": ""
+    }, {
+      "id": "25a79117-bfdb-4a01-a17e-3a3b8fcbf735",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=input.payment-method-button",
+      "value": ""
+    }, {
+      "id": "db7d045b-647a-4dd9-8e1a-0bad7ab8b491",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//input[@value='Пожертвовать через PayPal (USD)']",
+      "value": ""
+    }, {
+      "id": "3ecd6634-df5b-49ab-b462-8c62d5e893bc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#infobox-header > p",
+      "value": "На что пойдут ваши пожертвования"
+    }, {
+      "id": "fd07361e-d2d5-48f1-80d6-738cc20215eb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#infobox-body > p > b",
+      "value": "Технология:"
+    }, {
+      "id": "4273597e-8796-4e55-8f5a-76ab103597f8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='infobox-body']/p[2]/b",
+      "value": "Сотрудники:"
+    }]
+  }, {
+    "id": "c1202833-3a12-49fd-8799-53241444526a",
+    "name": "17. Check the presence of content on the \"Links here\" page for Russian",
+    "commands": [{
+      "id": "d342c651-9c3a-4591-8cd2-ea9b054aebe8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "c2403b63-fc69-443c-acfb-6697ae403162",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "70fa6807-85f4-48a6-a4a5-770666e7e3ee",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Список всех страниц, ссылающихся на данную [Alt+Shift+j]\"]",
+      "value": ""
+    }, {
+      "id": "d3020022-1104-4d23-ac2b-45310780887d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "924ba076-7663-4cd2-9133-a9e4b1dbc001",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "f5fae283-7fd4-4e5b-b2e9-baa9cdfe77a6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "c5ea6384-cee7-4e08-8a45-f975ab74c4d9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "192e0f7f-5c77-49e2-8455-ab7bf641e37b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "36f40c73-4eea-438e-a518-3144538ce49e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Страницы, ссылающиеся на «Заглавная страница»"
+    }, {
+      "id": "c6bfde51-0b57-48d8-8542-2835e7b00ddd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=legend",
+      "value": "Ссылки сюда"
+    }, {
+      "id": "bc85d8ae-006d-44ba-b632-c0541d5af01b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=label.mw-searchInput",
+      "value": "Страница:"
+    }, {
+      "id": "3c5e47dc-ce56-4ba9-80e4-06aedd55233f",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=mw-whatlinkshere-target",
+      "value": ""
+    }, {
+      "id": "1b71a1cd-ec36-49d7-b9f0-7baa28214496",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/form/fieldset/label[2]",
+      "value": "Пространство имён:"
+    }, {
+      "id": "70a30094-2070-47c7-b8fa-4954deaae5ed",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=namespace",
+      "value": "все (основное) Обсуждение Участник Обсуждение участника Википедия Обсуждение Википедии Файл Обсуждение файла MediaWiki Обсуждение MediaWiki Шаблон Обсуждение шаблона Справка Обсуждение справки Категория Обсуждение категории Портал Обсуждение портала Инкубатор Обсуждение Инкубатора Проект Обсуждение проекта Арбитраж Обсуждение арбитража Образовательная программа Обсуждение образовательной программы Модуль Обсуждение модуля Gadget Gadget talk Gadget definition Gadget definition talk Тема"
+    }, {
+      "id": "2977cafe-b091-46a5-b028-6caf959acf29",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "id=nsinvert",
+      "value": ""
+    }, {
+      "id": "29a3e4c1-8b20-489b-af36-a53ce9e9367d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=label[title=\"Установите этот флажок, чтобы Скрыть ссылки от страниц в выбранном пространстве имен.\"]",
+      "value": "Скрыть выбранное"
+    }, {
+      "id": "03846e4d-2d49-4043-af88-8dde78597c3d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=input[type=\"submit\"]",
+      "value": ""
+    }, {
+      "id": "162ad56c-5342-4042-b7cd-94a206120b51",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#mw-content-text > fieldset > legend",
+      "value": "Фильтры"
+    }, {
+      "id": "c7331eb9-49ac-45fa-85be-c26b52c54d02",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Служебная:Ссылки сюда/Заглавная страница\"]",
+      "value": "Скрыть"
+    }, {
+      "id": "7ba7962c-6a10-4208-a372-370326514fdb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#mw-content-text > fieldset",
+      "value": "Фильтры Скрыть включения | Скрыть ссылки | Скрыть перенаправления"
+    }, {
+      "id": "141ad972-752c-411f-a03c-e3647b956888",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'Скрыть')])[2]",
+      "value": "Скрыть"
+    }, {
+      "id": "ac1860c5-faf5-4772-9473-4779f549509e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#mw-content-text > fieldset",
+      "value": "Фильтры Скрыть включения | Скрыть ссылки | Скрыть перенаправления"
+    }, {
+      "id": "b1fcc253-1db7-4b8d-acb7-cbb8ce9188b4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=(//a[contains(text(),'Скрыть')])[3]",
+      "value": "Скрыть"
+    }, {
+      "id": "e5b333bc-7864-4a9a-97d1-87cd52cdc2e2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#mw-content-text > fieldset",
+      "value": "Фильтры Скрыть включения | Скрыть ссылки | Скрыть перенаправления"
+    }]
+  }, {
+    "id": "6b73db27-5bbc-4844-aa42-ced8f96c76f1",
+    "name": "18. Check the presence of content on the \"Related changes\" page for Russian",
+    "commands": [{
+      "id": "54fe53b2-e255-4a08-b2ab-d90929c31316",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "03a55222-7dc8-4bf0-9380-23370a901448",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "63cfba8d-389f-4092-b5be-66174c3438e9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Последние изменения в страницах, на которые ссылается эта страница [Alt+Shift+k]\"]",
+      "value": ""
+    }, {
+      "id": "83ce6dee-268e-4601-acb6-ffc2dd56c994",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "0c32ae01-a156-4fad-99e3-d041f45f5101",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "1b0b5338-c957-4687-bc40-a2e234be6e4b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "d15126f1-01bd-40c9-8fc0-3e06012fea9b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "25e74c34-c5ec-42f0-89b3-125bdf26e8ce",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "a9532759-908b-4b91-8ed4-f153015c388d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Связанные правки"
+    }, {
+      "id": "82ddd8bc-dabf-4794-adf6-4b0769b0b932",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.oo-ui-labelElement-label",
+      "value": "Показать правки на ссылаемых страницах"
+    }, {
+      "id": "a73b67c7-3a29-4f66-a9f1-0666f9ca5299",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "css=input.oo-ui-inputWidget-input",
+      "value": ""
+    }, {
+      "id": "d00f2b56-f2f9-4ad4-a4fa-3cfbba618c5e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[2]/div/div/div[2]/div/div/div/div/label",
+      "value": "Активные фильтры"
+    }, {
+      "id": "e20d700c-d2b7-4edb-b32f-196b0c16ab77",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=bdi",
+      "value": "Человек (не бот)"
+    }, {
+      "id": "b148df66-5fbd-4706-b475-04465e090c1a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[2]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/span/bdi",
+      "value": "Правки страницы"
+    }, {
+      "id": "b1dfcfba-c07a-411c-90c4-63fb4a17065c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[2]/div/div/div[2]/div/div/div[2]/div/div/div/div[3]/span/bdi",
+      "value": "Создания страниц"
+    }, {
+      "id": "9ee90687-5257-4be8-97c3-addb907d8324",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[2]/div/div/div[2]/div/div/div[2]/div/div/div/div[4]/span/bdi",
+      "value": "Протоколируемые действия"
+    }, {
+      "id": "5902d390-8d68-40e5-b571-a01be92e857f",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "xpath=(//input[@value=''])[2]",
+      "value": "Фильтры"
+    }, {
+      "id": "8ec3a252-71e4-4b93-b142-0085f36068ce",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/a/span[2]",
+      "value": "Пространства имён"
+    }, {
+      "id": "0088071f-1511-48e2-9646-a8a238672a3e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[2]/a/span[2]",
+      "value": "Метки"
+    }, {
+      "id": "84660e45-ec0c-47b9-a782-266e01316e88",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[2]/div/div/div[3]/span/a/span[2]",
+      "value": "Обновлять автоматически"
+    }, {
+      "id": "cf60b80b-e16e-4564-bd9f-32077a4a3410",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@id='mw-content-text']/div[2]/div/div/div[3]/div/span/a/span[2]",
+      "value": "50 изменений, 7 дней"
+    }]
+  }, {
+    "id": "fd976095-a81c-4fdb-b961-fd4ed04eb8f3",
+    "name": "19. Check the presence of content on the \"Special pages\" page for Russian",
+    "commands": [{
+      "id": "99f022fd-8490-4d42-812d-5312dfe2858a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "a5d0e898-f0c1-4d73-b67a-1538a44208a3",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "e40e70bd-9bf6-41a9-902b-42eed88c706b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Список служебных страниц [Alt+Shift+q]\"]",
+      "value": ""
+    }, {
+      "id": "b9457a9f-3b71-4c05-ba8d-168fe770499d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "6947d61a-4da7-41f3-9db4-3930e981fcd7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "46a9d04a-c8e1-4929-b1b3-46ceb902abfd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "value": "Спецстраницы"
+    }, {
+      "id": "b1109a45-ddff-47b4-bfd8-9efb81424f5e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Отчёты_технического_обслуживания",
+      "value": "Отчёты технического обслуживания"
+    }, {
+      "id": "4a8a35c3-bada-4f51-a282-cd5b3b22d1fc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Списки_страниц",
+      "value": "Списки страниц"
+    }, {
+      "id": "abc2ab85-e3f6-49f0-a7a2-ac75b105878e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Представиться_/_Зарегистрироваться",
+      "value": "Представиться / Зарегистрироваться"
+    }, {
+      "id": "67955181-c2db-459e-b265-358aa0b971c1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Участники_и_права",
+      "value": "Участники и права"
+    }, {
+      "id": "50533ba6-6392-4a18-95f7-d5a7627d0ffe",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Свежие_правки_и_журналы",
+      "value": "Свежие правки и журналы"
+    }, {
+      "id": "c38bb764-1126-4a5a-b556-9f65d84835d0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Отчёты_о_медиаматериалах_и_загрузка",
+      "value": "Отчёты о медиаматериалах и загрузка"
+    }, {
+      "id": "6a142030-fad0-4b96-9ff4-b979445cae4a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Данные_и_инструменты",
+      "value": "Данные и инструменты"
+    }, {
+      "id": "a85a4da6-b4c9-49c0-87f0-c79f90bbf33f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Перенаправляющие_служебные_страницы",
+      "value": "Перенаправляющие служебные страницы"
+    }, {
+      "id": "a9f00ec9-e185-4476-bc0a-bd27c54e5d22",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Интенсивно_используемые_страницы",
+      "value": "Интенсивно используемые страницы"
+    }, {
+      "id": "54f9c9d5-47a1-43a4-bbd0-8471151a61ff",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Инструменты_для_страниц",
+      "value": "Инструменты для страниц"
+    }, {
+      "id": "2f59d850-7436-4dbd-a52b-0f43f3f2879d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Образование",
+      "value": "Образование"
+    }, {
+      "id": "400935ff-14a8-4cca-af90-ce7494d4c4fc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Патрулирование",
+      "value": "Патрулирование"
+    }, {
+      "id": "298f98ec-22ff-4fc8-8e2b-1f8421151552",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Другие_служебные_страницы",
+      "value": "Другие служебные страницы"
+    }]
+  }, {
+    "id": "15aecd20-9cdf-47af-be19-5f3b74e9edd9",
+    "name": "20. Check the presence of content on the \"Permanent link\" page for Russian",
+    "commands": [{
+      "id": "2926bf3f-c857-4cbc-a3a3-94322e63a32f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "22001336-d18e-439d-ba0c-d1a60176ad8a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#js-link-box-ru > strong",
+      "value": ""
+    }, {
+      "id": "c665373e-d605-4875-9e7c-ca41ba93c3f0",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a[title=\"Постоянная ссылка на эту версию страницы\"]",
+      "value": ""
+    }, {
+      "id": "e71105b8-3961-4282-9bff-4288b7ac7df2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#ca-view > span > a",
+      "value": "Читать"
+    }, {
+      "id": "00d2ddd7-2bbf-4016-89db-764732a86da5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [Alt+Shift+e]\"]",
+      "value": "Просмотр кода"
+    }, {
+      "id": "25097fee-bcb1-4acc-83f2-57db9708347b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a[title=\"Журнал изменений страницы [Alt+Shift+h]\"]",
+      "value": "История"
+    }, {
+      "id": "f9cf57fb-0875-44bd-990a-d6ab9d99de06",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchInput",
+      "value": ""
+    }, {
+      "id": "19239cab-dfde-4d6b-b144-2e3fb60a151c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=searchButton",
+      "value": ""
+    }, {
+      "id": "9390b98e-3223-4102-b236-4997cb91c0cf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=a.external.text",
+      "value": "Отпатрулированная версия"
+    }, {
+      "id": "071416c7-8281-4c85-bbb1-af8803cabc46",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Добро_пожаловать_в_Википедию,",
+      "value": "Добро пожаловать в Википедию,"
+    }, {
+      "id": "49a11307-fd28-44ff-a9d6-c729cc03740c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p.main-top-articleCount",
+      "value": "Сейчас в Википедии 1 487 292 статьи на русском языке."
+    }, {
+      "id": "57a1c142-91c3-4914-b2c0-9243aa7f736b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.main-box-subtitle",
+      "value": "Избранная статья"
+    }, {
+      "id": "c0b07fa4-bc8d-49f9-a07b-2b7f136bb75c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#main-dyk > div.main-box-subtitle",
+      "value": "Из новых материалов"
+    }, {
+      "id": "69196d9d-76ec-4d80-9b83-ff89db15bd4d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#Парашютный_полк > a",
+      "value": ""
+    }, {
+      "id": "e9affa3b-0675-4faa-93b3-fae6f0d85297",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#main-tga > div.main-box-subtitle",
+      "value": "Хорошая статья"
+    }, {
+      "id": "7286cf1a-828c-436b-841d-248e70345589",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Текущие_события",
+      "value": "Текущие события"
+    }, {
+      "id": "ad07d201-9246-4b23-8554-3dca9cd75938",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=span.main-featuredLists-subtitle",
+      "value": ""
+    }, {
+      "id": "3b4a9975-8c37-43e5-b1c1-1fdaeb36f9cb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=span.main-featuredLists-subtitle",
+      "value": "Последний избранный список"
+    }, {
+      "id": "372ac5cf-c0ce-46c3-a3fc-dfcd822291e5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#main-itd > div.main-box-subtitle",
+      "value": "В этот день"
+    }, {
+      "id": "287bd0e8-5371-47a4-84c1-0c3c6eecb4e9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Изображение_дня",
+      "value": "Изображение дня"
+    }, {
+      "id": "b0845b7e-014e-4a25-95e6-eeaf8dfca27e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=Совместная_работа_недели",
+      "value": "Совместная работа недели"
+    }]
+  }],
+  "suites": [{
+    "id": "224d75ee-7072-4860-9ab1-330b05d73d3f",
+    "name": "Content checking scenarios",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8098f616-e1b5-4870-b79b-896b0c09f231", "75ebf3a8-1ded-421a-acc1-faa545a45895", "012b397e-07b3-43f8-a607-9b0dc0b1d6ae", "5ecbeef2-7dab-4871-a1d3-3995dc7b4470", "e1f3de8c-9407-4322-b94a-0431bdcdeb0d", "1749d5e6-897f-4c17-af55-da23c8f6bf33", "ac2573f0-04e7-4dc9-8d03-b79c14403f99", "b9a1d2f8-03c8-41b9-a4ac-7203298b362f", "20f25587-47ed-467b-aa3b-774e4033ee0b", "26b19c11-54f7-4954-a888-e1cf75193b28", "3b03c46a-2ff4-4567-a6a5-b4a452da5dc0", "cce06961-24d7-438f-b216-2f7e92f74577", "7e51fb8a-7fb6-4287-9f30-371a306589aa", "325148cf-bd18-436f-8b36-2fe64eea813d", "14a63773-8e21-445a-b2d8-be7f0a140393", "cd0e10b9-52c3-4302-b7c3-2be6fde4a53f", "c1202833-3a12-49fd-8799-53241444526a", "6b73db27-5bbc-4844-aa42-ced8f96c76f1", "fd976095-a81c-4fdb-b961-fd4ed04eb8f3", "15aecd20-9cdf-47af-be19-5f3b74e9edd9"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": [],
+  "version": "1.0"
+}
