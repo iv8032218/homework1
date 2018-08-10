@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b55fd1f-e5ab-4997-ba53-86a5a11b1312" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1598744866">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.114" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.90" value="1" />
+          <entry key="project.open.time.97" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="68" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="68" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1238" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1238" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>isElementPresent</find>
+      <find>verificationErrors</find>
+      <find>assertTrue(isElementPresent(By.cssSelector(&quot;#mw-content-text&gt;fieldset&quot;)))</find>
+      <find>#mw-content-text &gt; fieldset</find>
+      <find>switch_to</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/example/tests/TalkMainPageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/TalkMainPageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/SearchByCategoryPageTest.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/ViewSourceMainPageTest.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/MainPageRusTest.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/ViewSourceMainPageRusTest.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/SearchByCategoryPageRusTest.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/TalkMainPageRusTest.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/ViewSourceMainPageRusTest3.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/SearchByCategoryPageRusTest4.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/HomePageTest1.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/MainPageRusTest2.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/TalkMainPageRusTest3.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/ViewSourceMainPageRusTest4.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/SearchByCategoryPageRusTest5.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/AlphabeticalIndexRusTest6.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test6AlphabeticalIndexRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test7FeaturedArticleRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test7FeaturedArticlePageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test8RandomArticlePageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test9CurrentEventsPageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test10ReportBugPageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test11CommunityPageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test12ForumPageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test13FreshChangesPageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test14NewPagesPageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test15HelpPageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test16DonatePageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test17LinksHerePageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test18RelatedChangesPageRus.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test19SpecialPagesPageRus.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test1Registration.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test3SignInWithIncorrectData.java" />
+        <option value="$PROJECT_DIR$/src/org/wikipedia/Test20PermanentLinkPageRus.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test4CreateNewProject.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test8ChangeBugName.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test9TestSuiteLinkInNavLeftSidePage.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test2SignIn.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test4CreateProject.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test5DeleteProject.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test6SearchAndSelectProjectThroughNaviBar.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test7CreateBug.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test8DeleteBug.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test9TestSuiteLinkInNaviLeftSidePage.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test10MobileSDKLinkInNaviLeftSidePage.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test11SeleniumTestsLinkInNaviLeftSidePage.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test12ConversationsLinkInNaviLeftSidePage.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test13UsersLinkInNaviLeftSidePage.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test14SettingsLinkInNaviLeftSidePage.java" />
+        <option value="$PROJECT_DIR$/src/com/leantesting/Test15FaqAndHelpLinkInNaviLeftSidePage.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="398" />
+    <option name="y" value="74" />
+    <option name="width" value="836" />
+    <option name="height" value="623" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test_club" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_club" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_club" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_club" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_club" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_club" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leantesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_club" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533875011298" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.12.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Test15FaqAndHelpLinkInNaviLeftSidePage.testFaqAndHelpLinkInNaviLeftSidePage">
+    <configuration name="Test11SeleniumTestsLinkInNaviLeftSidePage.testSeleniumTestsLinkInNaviLeftSidePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_club" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leantesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leantesting" />
+      <option name="MAIN_CLASS_NAME" value="com.leantesting.Test11SeleniumTestsLinkInNaviLeftSidePage" />
+      <option name="METHOD_NAME" value="testSeleniumTestsLinkInNaviLeftSidePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test12ConversationsLinkInNaviLeftSidePage.testConversationsLinkInNaviLeftSidePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_club" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leantesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leantesting" />
+      <option name="MAIN_CLASS_NAME" value="com.leantesting.Test12ConversationsLinkInNaviLeftSidePage" />
+      <option name="METHOD_NAME" value="testConversationsLinkInNaviLeftSidePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test13UsersLinkInNaviLeftSidePage.testUsersLinkInNaviLeftSidePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_club" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leantesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leantesting" />
+      <option name="MAIN_CLASS_NAME" value="com.leantesting.Test13UsersLinkInNaviLeftSidePage" />
+      <option name="METHOD_NAME" value="testUsersLinkInNaviLeftSidePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test14SettingsLinkInNaviLeftSidePage.testSettingsLinkInNaviLeftSidePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_club" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leantesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leantesting" />
+      <option name="MAIN_CLASS_NAME" value="com.leantesting.Test14SettingsLinkInNaviLeftSidePage" />
+      <option name="METHOD_NAME" value="testSettingsLinkInNaviLeftSidePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test15FaqAndHelpLinkInNaviLeftSidePage.testFaqAndHelpLinkInNaviLeftSidePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_club" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leantesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leantesting" />
+      <option name="MAIN_CLASS_NAME" value="com.leantesting.Test15FaqAndHelpLinkInNaviLeftSidePage" />
+      <option name="METHOD_NAME" value="testFaqAndHelpLinkInNaviLeftSidePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Test11SeleniumTestsLinkInNaviLeftSidePage.testSeleniumTestsLinkInNaviLeftSidePage" />
+      <item itemvalue="JUnit.Test12ConversationsLinkInNaviLeftSidePage.testConversationsLinkInNaviLeftSidePage" />
+      <item itemvalue="JUnit.Test13UsersLinkInNaviLeftSidePage.testUsersLinkInNaviLeftSidePage" />
+      <item itemvalue="JUnit.Test14SettingsLinkInNaviLeftSidePage.testSettingsLinkInNaviLeftSidePage" />
+      <item itemvalue="JUnit.Test15FaqAndHelpLinkInNaviLeftSidePage.testFaqAndHelpLinkInNaviLeftSidePage" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test15FaqAndHelpLinkInNaviLeftSidePage.testFaqAndHelpLinkInNaviLeftSidePage" />
+        <item itemvalue="JUnit.Test14SettingsLinkInNaviLeftSidePage.testSettingsLinkInNaviLeftSidePage" />
+        <item itemvalue="JUnit.Test13UsersLinkInNaviLeftSidePage.testUsersLinkInNaviLeftSidePage" />
+        <item itemvalue="JUnit.Test12ConversationsLinkInNaviLeftSidePage.testConversationsLinkInNaviLeftSidePage" />
+        <item itemvalue="JUnit.Test11SeleniumTestsLinkInNaviLeftSidePage.testSeleniumTestsLinkInNaviLeftSidePage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b55fd1f-e5ab-4997-ba53-86a5a11b1312" name="Default Changelist" comment="" />
+      <created>1533682919310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533682919310</updated>
+      <workItem from="1533682934517" duration="30753000" />
+      <workItem from="1533838769772" duration="1927000" />
+      <workItem from="1533843195025" duration="8528000" />
+      <workItem from="1533852526474" duration="19371000" />
+      <workItem from="1533876758252" duration="210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test5DeleteProject_testDeleteProject - 2018.08.10 at 07h 21m 03s.xml">
+      <configuration name="Test5DeleteProject.testDeleteProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test6SearchAndSelectProjectThroughNaviBar_testSearchAndSelectProjectThroughNaviBar - 2018.08.10 at 07h 21m 30s.xml">
+      <configuration name="Test6SearchAndSelectProjectThroughNaviBar.testSearchAndSelectProjectThroughNaviBar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test8DeleteBug_testDeleteBug - 2018.08.10 at 07h 21m 59s.xml">
+      <configuration name="Test8DeleteBug.testDeleteBug" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test7CreateBug_testCreateBug - 2018.08.10 at 07h 22m 00s.xml">
+      <configuration name="Test7CreateBug.testCreateBug" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test9TestSuiteLinkInNaviLeftSidePage_testTestSuiteLinkInNaviLeftSidePage - 2018.08.10 at 07h 22m 47s.xml">
+      <configuration name="Test9TestSuiteLinkInNaviLeftSidePage.testTestSuiteLinkInNaviLeftSidePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test10MobileSDKLinkInNaviLeftSidePage_testMobileSDKLinkInNaviLeftSidePage - 2018.08.10 at 07h 23m 26s.xml">
+      <configuration name="Test10MobileSDKLinkInNaviLeftSidePage.testMobileSDKLinkInNaviLeftSidePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test11SeleniumTestsLinkInNaviLeftSidePage_testSeleniumTestsLinkInNaviLeftSidePage - 2018.08.10 at 07h 23m 39s.xml">
+      <configuration name="Test11SeleniumTestsLinkInNaviLeftSidePage.testSeleniumTestsLinkInNaviLeftSidePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test12ConversationsLinkInNaviLeftSidePage_testConversationsLinkInNaviLeftSidePage - 2018.08.10 at 07h 23m 40s.xml">
+      <configuration name="Test12ConversationsLinkInNaviLeftSidePage.testConversationsLinkInNaviLeftSidePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test15FaqAndHelpLinkInNaviLeftSidePage_testFaqAndHelpLinkInNaviLeftSidePage - 2018.08.10 at 07h 24m 14s.xml">
+      <configuration name="Test15FaqAndHelpLinkInNaviLeftSidePage.testFaqAndHelpLinkInNaviLeftSidePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test14SettingsLinkInNaviLeftSidePage_testSettingsLinkInNaviLeftSidePage - 2018.08.10 at 07h 24m 14s.xml">
+      <configuration name="Test14SettingsLinkInNaviLeftSidePage.testSettingsLinkInNaviLeftSidePage" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60789000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.26618123" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32970452" />
+      <window_info anchor="bottom" id="Inspection Results" order="5" weight="0.32970452" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32970452" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39968896" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32928804" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32928804" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test1HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test2MainPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test3TalkMainPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test4ViewSourceMainPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1533801414571" expanded="true" signature="4406:4470" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test20PermanentLinkPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test19SpecialPagesPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test18RelatedChangesPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test17LinksHerePageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test16DonatePageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test15HelpPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="219" column="9" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test14NewPagesPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test13FreshChangesPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test12ForumPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test11CommunityPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test10ReportBugPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test9CurrentEventsPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test8RandomArticlePageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test7FeaturedArticlePageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test6AlphabeticalIndexPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/wikipedia/Test5SearchByCategoryPageRus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test1Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test2SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test3SignInWithIncorrectData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test4CreateProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test5DeleteProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test6SearchAndSelectProjectThroughNaviBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test7CreateBug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test8DeleteBug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test9TestSuiteLinkInNaviLeftSidePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test14SettingsLinkInNaviLeftSidePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test15FaqAndHelpLinkInNaviLeftSidePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_club.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test13UsersLinkInNaviLeftSidePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test12ConversationsLinkInNaviLeftSidePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test11SeleniumTestsLinkInNaviLeftSidePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leantesting/Test10MobileSDKLinkInNaviLeftSidePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test_club</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
